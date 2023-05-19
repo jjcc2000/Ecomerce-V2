@@ -1,0 +1,43 @@
+html {
+  background-color: #b5aaa6;
+}
+body {
+  background-color: #b5aaa6;
+  margin: 0;
+  padding: 0;
+}
+p {
+  display: inline-block;
+}
+.nav-bar {
+  background-color: #b5aaa6;
+}
+.nav-bar .nav-link {
+  color: white;
+}
+.footer {
+  background-color: #b5aaa6;
+  width: 100%;
+}
+.Med {
+  font-family: "Dancing Script", cursive;
+}
+footer a:hover {
+  background-color: yellow;
+}
+.floating-input {
+  position: fixed; /* or "absolute" depending on your needs */
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  z-index: 9999; /* ensure it appears above other elements */
+}
+.chat-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 9999;
+}
